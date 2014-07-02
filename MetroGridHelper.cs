@@ -234,9 +234,9 @@ namespace Helpers
 
             #if WINDOWS_PHONE_APP
 
-            double x = 19.2;
-            double y = 38.4;
-            double block = 29.6;
+            double x = 19;
+            double y = 38;
+            double block = 29.5;
 
             #else
 
@@ -249,7 +249,7 @@ namespace Helpers
             for (; x < /*width*/ max; x += block)
             {
                 #if WINDOWS_PHONE_APP
-                y = 38.4;
+                y = 38;
                 #else
                 y = 140;
                 #endif
